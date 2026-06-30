@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0366/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0366/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 宋西太乙宮碑銘
+  date: '2015-08-29 00:56:59.792857'
+  source:
+    repository: kanripo
+    path: KR5c0366
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0366_000-ZTDZ.yaml, hash: 'sha256:25547479e48b7b507ec81d069c263417eb86dd0fb7623b18d6c943811824ad29'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0366_000-ZTDZ.markers.yaml, hash: 'sha256:2ad9c048d9506687f13c82e98e0b71fd24881e3f75fa3fa72dc234f35446cd16'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0366_SJB_000-190689a
+    span:
+    - body
+    - 0
+    - 1417
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:95f48fa2c899499cc5656d5e23356107b9faac688f20c2002c346ef8d7aa71c8
